@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Nosso Blog</title>
+</head>
+<body>
+
+    <div id="login" style="display: flex;">
+        <h1>Crie uma conta para acessar o site</h1>
+
+        <form action="" class="formulario" id="form" onsubmit="enviarDados(event)">
+
+            <div class="inputs">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+
+                <p>Informações adicinais:</p>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf">
+
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+
+
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <div class="home" id="home" style="display: none;">
+
+        <header id="header">
+        </header>
+
+        <div class="dados">
+            <h2>Seus dados</h2>
+            <div id="dados">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
